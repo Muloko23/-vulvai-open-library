@@ -1,0 +1,9 @@
+{
+  "name": "Know My Body",
+  "short_name": "Know My Body",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#fffafb",
+  "theme_color": "#5b1f4f",
+  "description": "Open source body literacy lessons for girls, built with communities in Rajasthan."
+}

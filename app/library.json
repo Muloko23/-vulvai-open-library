@@ -1,0 +1,838 @@
+{
+ "version": "0.1.0",
+ "min_status": "draft",
+ "mastery_threshold": 70,
+ "safety": {
+  "categories": {
+   "abuse": [
+    "forced",
+    "force me",
+    "hurt me",
+    "touched me",
+    "touches me",
+    "secret",
+    "hit me",
+    "beat",
+    "rape",
+    "made me",
+    "threaten"
+   ],
+   "pregnancy": [
+    "pregnant",
+    "pregnancy",
+    "baby",
+    "had sex"
+   ],
+   "self_harm": [
+    "kill myself",
+    "hurt myself",
+    "end my life",
+    "want to die",
+    "suicide"
+   ],
+   "serious_symptom": [
+    "heavy bleeding",
+    "bleeding a lot",
+    "fainted",
+    "faint",
+    "fever",
+    "severe pain",
+    "very bad pain",
+    "lump",
+    "blood in urine"
+   ],
+   "marriage": [
+    "marry me",
+    "getting married",
+    "my marriage",
+    "married off"
+   ]
+  },
+  "message": "Thank you for asking. This is important, and a trusted facilitator will talk with you privately and help you. You are not in trouble."
+ },
+ "no_match_message": "I do not have a checked answer for that yet. Please ask your facilitator, who can help you or find someone who can.",
+ "stopwords": [
+  "a",
+  "am",
+  "an",
+  "and",
+  "are",
+  "be",
+  "can",
+  "do",
+  "does",
+  "during",
+  "for",
+  "how",
+  "i",
+  "in",
+  "is",
+  "it",
+  "me",
+  "my",
+  "normal",
+  "of",
+  "on",
+  "or",
+  "that",
+  "the",
+  "this",
+  "to",
+  "what",
+  "when",
+  "why"
+ ],
+ "modules": [
+  {
+   "id": "body_basics",
+   "title": {
+    "en": "Knowing my body"
+   },
+   "topic": "body",
+   "level": 1,
+   "review_status": "draft",
+   "prerequisites": [],
+   "lessons": [
+    {
+     "id": "body_basics_1",
+     "format": "audio",
+     "script": {
+      "en": "Every part of your body has a name, including the private parts between your legs. The outside area is called the vulva. It includes the labia, the clitoris, the opening where urine comes out, and the vaginal opening. The vagina is the passage that leads inside to the uterus. Knowing these names helps you understand your body and explain how you feel to someone you trust."
+     },
+     "audio": "media/audio/body_basics_1.mp3"
+    },
+    {
+     "id": "body_basics_2",
+     "format": "story_card",
+     "script": {
+      "en": "Meera notices some white fluid in her underwear and worries something is wrong. Her aunt explains that this is called discharge, and that it is a normal way the vagina keeps itself clean. If it smells bad, itches, or changes colour, that is a sign to talk to a health worker."
+     },
+     "audio": "media/audio/body_basics_2.mp3",
+     "image": "media/images/body_basics_2.svg"
+    }
+   ],
+   "quiz": [
+    {
+     "question": {
+      "en": "What is the outside area between the legs called?"
+     },
+     "options": [
+      {
+       "en": "The vulva"
+      },
+      {
+       "en": "The stomach"
+      },
+      {
+       "en": "The uterus"
+      }
+     ],
+     "answer": 0
+    },
+    {
+     "question": {
+      "en": "Some clear or white discharge from the vagina is:"
+     },
+     "options": [
+      {
+       "en": "Always a sign of illness"
+      },
+      {
+       "en": "Normal and healthy"
+      },
+      {
+       "en": "Something to hide"
+      }
+     ],
+     "answer": 1
+    }
+   ],
+   "faq": [
+    {
+     "question": {
+      "en": "Is white discharge normal?"
+     },
+     "answer": {
+      "en": "Yes. Clear or white discharge is a normal way the vagina keeps itself clean and healthy. Talk to a health worker if it smells bad, itches, burns, or changes colour."
+     },
+     "keywords": [
+      "discharge",
+      "white",
+      "fluid",
+      "underwear",
+      "wet"
+     ]
+    },
+    {
+     "question": {
+      "en": "What is the vulva?"
+     },
+     "answer": {
+      "en": "The vulva is the outside part of the genitals between your legs. It includes the labia, the clitoris, the urinary opening, and the vaginal opening."
+     },
+     "keywords": [
+      "vulva",
+      "private",
+      "parts",
+      "genitals",
+      "labia",
+      "clitoris"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "care_seeking",
+   "title": {
+    "en": "When and where to get care"
+   },
+   "topic": "care_seeking",
+   "level": 3,
+   "review_status": "draft",
+   "prerequisites": [
+    "body_basics",
+    "menstruation_basics"
+   ],
+   "lessons": [
+    {
+     "id": "care_seeking_1",
+     "format": "audio",
+     "script": {
+      "en": "Some signs mean your body needs care. See a health worker if your period soaks through a pad every hour, if period pain stops you from going to school, if discharge smells bad, itches, or burns, if it hurts when you pass urine, if you have sores or lumps between your legs, or if you have not had a period by age 15. You can start with your local ASHA worker, who can help you reach the nearest health centre."
+     },
+     "audio": "media/audio/care_seeking_1.mp3"
+    },
+    {
+     "id": "care_seeking_2",
+     "format": "case_scenario",
+     "script": {
+      "en": "Anjali has had burning when she passes urine for three days. She is embarrassed to tell anyone. Practise what Anjali could say to the ASHA worker: when it started, what it feels like, and what she has tried."
+     },
+     "audio": "media/audio/care_seeking_2.mp3",
+     "image": "media/images/care_seeking_2.svg"
+    }
+   ],
+   "quiz": [
+    {
+     "question": {
+      "en": "Which of these is a sign to see a health worker?"
+     },
+     "options": [
+      {
+       "en": "Clear discharge"
+      },
+      {
+       "en": "Burning when passing urine"
+      },
+      {
+       "en": "Feeling tired before a period"
+      }
+     ],
+     "answer": 1
+    },
+    {
+     "question": {
+      "en": "Period pain that stops you from going to school is:"
+     },
+     "options": [
+      {
+       "en": "Something to ignore"
+      },
+      {
+       "en": "A reason to see a health worker"
+      }
+     ],
+     "answer": 1
+    }
+   ],
+   "faq": [
+    {
+     "question": {
+      "en": "It burns when I pee. What should I do?"
+     },
+     "answer": {
+      "en": "Burning when you pass urine can be a sign of a urinary infection, which is common and treatable. Drink plenty of clean water and talk to your ASHA worker or a health worker soon. Go quickly if you also have fever, back pain, or blood in your urine."
+     },
+     "keywords": [
+      "burn",
+      "burning",
+      "pee",
+      "urine",
+      "urinate",
+      "sting"
+     ]
+    },
+    {
+     "question": {
+      "en": "My period is very heavy. Is that normal?"
+     },
+     "answer": {
+      "en": "Some heaviness is normal, especially on the first days. If you soak through a pad or cloth every hour, bleed for more than seven days, or feel dizzy or very tired, talk to a health worker. Heavy periods are treatable."
+     },
+     "keywords": [
+      "heavy",
+      "period",
+      "lot",
+      "blood",
+      "soak",
+      "flow"
+     ]
+    },
+    {
+     "question": {
+      "en": "My discharge smells bad and itches. What does that mean?"
+     },
+     "answer": {
+      "en": "A bad smell, itching, or a change in colour can be a sign of an infection, which is common and treatable. Wear clean cotton underwear, wash the outside with plain water, and talk to a health worker."
+     },
+     "keywords": [
+      "smell",
+      "itch",
+      "itching",
+      "discharge",
+      "odor",
+      "colour",
+      "color"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "consent_basics",
+   "title": {
+    "en": "My body, my choice"
+   },
+   "topic": "consent",
+   "level": 2,
+   "review_status": "draft",
+   "prerequisites": [
+    "body_basics"
+   ],
+   "lessons": [
+    {
+     "id": "consent_basics_1",
+     "format": "audio",
+     "script": {
+      "en": "Your body belongs to you. No one should touch your private parts without your permission, and no one should ever ask you to keep a touch secret. You can say no, even to someone you know. If someone makes you uncomfortable, tell a trusted adult or your facilitator."
+     },
+     "audio": "media/audio/consent_basics_1.mp3"
+    },
+    {
+     "id": "consent_basics_2",
+     "format": "group_activity",
+     "script": {
+      "en": "In pairs, practise saying no clearly and calmly. Then discuss: who are the trusted adults in your life you could talk to if something felt wrong?"
+     },
+     "audio": "media/audio/consent_basics_2.mp3",
+     "image": "media/images/consent_basics_2.svg"
+    }
+   ],
+   "quiz": [
+    {
+     "question": {
+      "en": "Can you say no to a touch from someone you know?"
+     },
+     "options": [
+      {
+       "en": "Yes, always"
+      },
+      {
+       "en": "Only if they are a stranger"
+      },
+      {
+       "en": "No"
+      }
+     ],
+     "answer": 0
+    }
+   ],
+   "faq": [
+    {
+     "question": {
+      "en": "Can I say no to someone in my family?"
+     },
+     "answer": {
+      "en": "Yes. Your body belongs to you, and you can say no to any touch that makes you uncomfortable, including from family members. Tell a trusted adult or your facilitator if this happens."
+     },
+     "keywords": [
+      "no",
+      "family",
+      "touch",
+      "uncomfortable",
+      "permission"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "emotions_selfworth",
+   "title": {
+    "en": "My feelings matter"
+   },
+   "topic": "emotions",
+   "level": 2,
+   "review_status": "draft",
+   "prerequisites": [
+    "body_basics"
+   ],
+   "lessons": [
+    {
+     "id": "emotions_selfworth_1",
+     "format": "audio",
+     "script": {
+      "en": "As your body changes, your feelings change too. You may feel happy one moment and sad or angry the next. Hormones in your body cause some of these changes, and they are normal. Your feelings are real and they matter. Talking to someone you trust can help you feel less alone."
+     },
+     "audio": "media/audio/emotions_selfworth_1.mp3"
+    },
+    {
+     "id": "emotions_selfworth_2",
+     "format": "group_activity",
+     "script": {
+      "en": "Each girl names one thing she likes about herself and one person she can talk to when she feels sad. The group listens without laughing or judging."
+     },
+     "audio": "media/audio/emotions_selfworth_2.mp3",
+     "image": "media/images/emotions_selfworth_2.svg"
+    }
+   ],
+   "quiz": [
+    {
+     "question": {
+      "en": "Feeling sad or angry more often during puberty is:"
+     },
+     "options": [
+      {
+       "en": "A sign you are a bad person"
+      },
+      {
+       "en": "Normal, and talking to someone can help"
+      },
+      {
+       "en": "Something to keep secret"
+      }
+     ],
+     "answer": 1
+    }
+   ],
+   "faq": [
+    {
+     "question": {
+      "en": "Why do I feel sad or angry before my period?"
+     },
+     "answer": {
+      "en": "Changes in hormones before a period can affect mood. Many girls feel more tired, sad, or easily upset. Rest, movement, and talking to someone you trust can help. If sadness lasts for weeks or stops you from daily life, talk to your facilitator."
+     },
+     "keywords": [
+      "sad",
+      "angry",
+      "mood",
+      "upset",
+      "cry",
+      "feelings",
+      "before"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "menstrual_hygiene",
+   "title": {
+    "en": "Caring for myself during my period"
+   },
+   "topic": "hygiene",
+   "level": 3,
+   "review_status": "draft",
+   "prerequisites": [
+    "menstruation_basics"
+   ],
+   "lessons": [
+    {
+     "id": "menstrual_hygiene_1",
+     "format": "audio",
+     "script": {
+      "en": "You can use pads, clean cloth, or a menstrual cup during your period. Change a pad or cloth every four to six hours, or sooner if it feels full. If you use cloth, wash it with soap and clean water and dry it fully in the sun, which helps kill germs. Wash your vulva with plain water each day. The vagina cleans itself, so never put soap or other products inside it."
+     },
+     "audio": "media/audio/menstrual_hygiene_1.mp3"
+    },
+    {
+     "id": "menstrual_hygiene_2",
+     "format": "case_scenario",
+     "script": {
+      "en": "Pooja dries her period cloth hidden under her bed so no one will see it. The cloth stays damp. What could happen? Where could Pooja dry her cloth instead, and who could help her?"
+     },
+     "audio": "media/audio/menstrual_hygiene_2.mp3",
+     "image": "media/images/menstrual_hygiene_2.svg"
+    }
+   ],
+   "quiz": [
+    {
+     "question": {
+      "en": "How often should you change a pad or cloth?"
+     },
+     "options": [
+      {
+       "en": "Once a day"
+      },
+      {
+       "en": "Every four to six hours"
+      },
+      {
+       "en": "Only when it leaks"
+      }
+     ],
+     "answer": 1
+    },
+    {
+     "question": {
+      "en": "The best place to dry a washed period cloth is:"
+     },
+     "options": [
+      {
+       "en": "In the sun"
+      },
+      {
+       "en": "Hidden under a bed"
+      },
+      {
+       "en": "Folded while still wet"
+      }
+     ],
+     "answer": 0
+    },
+    {
+     "question": {
+      "en": "Should you wash inside the vagina with soap?"
+     },
+     "options": [
+      {
+       "en": "Yes, every day"
+      },
+      {
+       "en": "No, the vagina cleans itself"
+      }
+     ],
+     "answer": 1
+    }
+   ],
+   "faq": [
+    {
+     "question": {
+      "en": "Can I bathe during my period?"
+     },
+     "answer": {
+      "en": "Yes. Bathing during your period is safe and helps you feel fresh. Wash the outside of your body with water. You do not need to wash inside the vagina."
+     },
+     "keywords": [
+      "bathe",
+      "bath",
+      "wash",
+      "shower",
+      "period",
+      "clean"
+     ]
+    },
+    {
+     "question": {
+      "en": "How do I wash and dry a period cloth?"
+     },
+     "answer": {
+      "en": "Wash the cloth with soap and clean water until the water runs clear. Dry it fully in direct sunlight. A damp or hidden cloth can grow germs that cause infection. Store dry cloths in a clean, dry place."
+     },
+     "keywords": [
+      "cloth",
+      "wash",
+      "dry",
+      "reuse",
+      "rag",
+      "sun"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "menstruation_basics",
+   "title": {
+    "en": "Understanding my period"
+   },
+   "topic": "menstruation",
+   "level": 2,
+   "review_status": "draft",
+   "prerequisites": [
+    "body_basics"
+   ],
+   "lessons": [
+    {
+     "id": "menstruation_basics_1",
+     "format": "video",
+     "script": {
+      "en": "A period is when the lining of the uterus leaves the body through the vagina as blood. It is a normal, healthy part of growing up. Most girls get their first period between ages 10 and 15. A period usually lasts between two and seven days and comes about once a month, but in the first years it is often irregular."
+     },
+     "audio": "media/audio/menstruation_basics_1.mp3",
+     "video": "media/video/menstruation_basics_1.mp4",
+     "image": "media/images/menstruation_basics_1.jpg"
+    },
+    {
+     "id": "menstruation_basics_2",
+     "format": "case_scenario",
+     "script": {
+      "en": "Kavita gets her period at school and is told she cannot enter the kitchen at home for five days. She feels ashamed. What could Kavita say to her mother? What would you tell her about whether a period makes her unclean?"
+     },
+     "audio": "media/audio/menstruation_basics_2.mp3",
+     "image": "media/images/menstruation_basics_2.svg"
+    }
+   ],
+   "quiz": [
+    {
+     "question": {
+      "en": "A period is:"
+     },
+     "options": [
+      {
+       "en": "A sign of illness"
+      },
+      {
+       "en": "A normal part of growing up"
+      },
+      {
+       "en": "Caused by something you ate"
+      }
+     ],
+     "answer": 1
+    },
+    {
+     "question": {
+      "en": "In the first years, periods are often:"
+     },
+     "options": [
+      {
+       "en": "Exactly the same every month"
+      },
+      {
+       "en": "Irregular"
+      },
+      {
+       "en": "Painless for everyone"
+      }
+     ],
+     "answer": 1
+    }
+   ],
+   "faq": [
+    {
+     "question": {
+      "en": "Is it normal for my period to be late?"
+     },
+     "answer": {
+      "en": "In the first years after your first period, it is common for periods to come early, late, or skip a month. If you have had sex and your period is late, or if periods stop for three months or more, talk to a health worker."
+     },
+     "keywords": [
+      "late",
+      "period",
+      "missed",
+      "irregular",
+      "skip"
+     ]
+    },
+    {
+     "question": {
+      "en": "Why does my stomach hurt during my period?"
+     },
+     "answer": {
+      "en": "Cramps happen because the uterus squeezes to release its lining. Mild cramps are common. A warm cloth on the belly, rest, and gentle movement can help. If the pain stops you from going to school or daily activities, talk to a health worker, because severe pain can have a treatable cause."
+     },
+     "keywords": [
+      "pain",
+      "cramps",
+      "stomach",
+      "hurt",
+      "ache",
+      "period"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "puberty_changes",
+   "title": {
+    "en": "How my body changes"
+   },
+   "topic": "puberty",
+   "level": 2,
+   "review_status": "draft",
+   "prerequisites": [
+    "body_basics"
+   ],
+   "lessons": [
+    {
+     "id": "puberty_changes_1",
+     "format": "video",
+     "script": {
+      "en": "Puberty is the time when a girl's body slowly becomes the body of a woman. It usually starts between ages 8 and 13. Your breasts begin to grow, hair grows under your arms and between your legs, your hips widen, and you grow taller. Clear or white discharge often starts a year or two before your first period. Every girl changes at her own pace, and that is normal."
+     },
+     "audio": "media/audio/puberty_changes_1.mp3",
+     "video": "media/video/puberty_changes_1.mp4",
+     "image": "media/images/puberty_changes_1.jpg"
+    },
+    {
+     "id": "puberty_changes_2",
+     "format": "story_card",
+     "script": {
+      "en": "Sunita's friend has started growing breasts, but Sunita has not. She worries something is wrong with her. Her facilitator explains that bodies follow their own timetable, and that starting earlier or later than a friend is normal. If nothing has changed by age 14, it is a good idea to see a health worker."
+     },
+     "audio": "media/audio/puberty_changes_2.mp3",
+     "image": "media/images/puberty_changes_2.svg"
+    }
+   ],
+   "quiz": [
+    {
+     "question": {
+      "en": "Puberty usually starts between ages:"
+     },
+     "options": [
+      {
+       "en": "3 and 5"
+      },
+      {
+       "en": "8 and 13"
+      },
+      {
+       "en": "18 and 20"
+      }
+     ],
+     "answer": 1
+    },
+    {
+     "question": {
+      "en": "If your friend's body changes before yours, it means:"
+     },
+     "options": [
+      {
+       "en": "Something is wrong with you"
+      },
+      {
+       "en": "Every body changes at its own pace"
+      },
+      {
+       "en": "You should hide it"
+      }
+     ],
+     "answer": 1
+    }
+   ],
+   "faq": [
+    {
+     "question": {
+      "en": "Why are my breasts sore?"
+     },
+     "answer": {
+      "en": "Growing breasts can feel tender or sore, and one side may grow faster than the other. This is common during puberty. Talk to a health worker if you notice a hard lump that does not go away, redness, or fluid from the nipple."
+     },
+     "keywords": [
+      "breast",
+      "breasts",
+      "sore",
+      "tender",
+      "chest",
+      "growing"
+     ]
+    },
+    {
+     "question": {
+      "en": "Is hair between my legs normal?"
+     },
+     "answer": {
+      "en": "Yes. Hair under the arms and between the legs is a normal part of puberty. It protects the skin and is nothing to be ashamed of."
+     },
+     "keywords": [
+      "hair",
+      "pubic",
+      "armpit",
+      "underarm",
+      "legs"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "safety_trusted_adults",
+   "title": {
+    "en": "Staying safe and getting help"
+   },
+   "topic": "safety",
+   "level": 3,
+   "review_status": "draft",
+   "prerequisites": [
+    "consent_basics"
+   ],
+   "lessons": [
+    {
+     "id": "safety_trusted_adults_1",
+     "format": "audio",
+     "script": {
+      "en": "A safe touch, like a hug you want, feels comfortable. An unsafe touch makes you feel scared, confused, or uncomfortable, or is a touch on your private parts. A person who asks you to keep a touch secret is not keeping you safe. If anything like this happens, it is never your fault. Tell a trusted adult, and keep telling until someone helps."
+     },
+     "audio": "media/audio/safety_trusted_adults_1.mp3"
+    },
+    {
+     "id": "safety_trusted_adults_2",
+     "format": "group_activity",
+     "script": {
+      "en": "Each girl draws her hand and writes or draws five trusted people, one on each finger, whom she could tell if she felt unsafe."
+     },
+     "audio": "media/audio/safety_trusted_adults_2.mp3",
+     "image": "media/images/safety_trusted_adults_2.svg"
+    }
+   ],
+   "quiz": [
+    {
+     "question": {
+      "en": "If someone asks you to keep a touch secret, you should:"
+     },
+     "options": [
+      {
+       "en": "Keep the secret"
+      },
+      {
+       "en": "Tell a trusted adult"
+      },
+      {
+       "en": "Feel it was your fault"
+      }
+     ],
+     "answer": 1
+    },
+    {
+     "question": {
+      "en": "If something unsafe happens to you, it is:"
+     },
+     "options": [
+      {
+       "en": "Never your fault"
+      },
+      {
+       "en": "Your fault"
+      }
+     ],
+     "answer": 0
+    }
+   ],
+   "faq": [
+    {
+     "question": {
+      "en": "Who can I tell if I feel unsafe?"
+     },
+     "answer": {
+      "en": "You can tell a parent, a teacher, your facilitator, or another adult you trust. In India you can also call the Childline helpline at 1098, which is free and open day and night."
+     },
+     "keywords": [
+      "unsafe",
+      "tell",
+      "help",
+      "trusted",
+      "scared",
+      "helpline"
+     ]
+    }
+   ]
+  }
+ ]
+}

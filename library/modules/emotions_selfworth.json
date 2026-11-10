@@ -1,0 +1,69 @@
+{
+  "id": "emotions_selfworth",
+  "title": {
+    "en": "My feelings matter"
+  },
+  "topic": "emotions",
+  "level": 2,
+  "review_status": "draft",
+  "prerequisites": [
+    "body_basics"
+  ],
+  "lessons": [
+    {
+      "id": "emotions_selfworth_1",
+      "format": "audio",
+      "script": {
+        "en": "As your body changes, your feelings change too. You may feel happy one moment and sad or angry the next. Hormones in your body cause some of these changes, and they are normal. Your feelings are real and they matter. Talking to someone you trust can help you feel less alone."
+      },
+      "audio": "media/audio/emotions_selfworth_1.mp3"
+    },
+    {
+      "id": "emotions_selfworth_2",
+      "format": "group_activity",
+      "script": {
+        "en": "Each girl names one thing she likes about herself and one person she can talk to when she feels sad. The group listens without laughing or judging."
+      },
+      "audio": "media/audio/emotions_selfworth_2.mp3",
+      "image": "media/images/emotions_selfworth_2.svg"
+    }
+  ],
+  "quiz": [
+    {
+      "question": {
+        "en": "Feeling sad or angry more often during puberty is:"
+      },
+      "options": [
+        {
+          "en": "A sign you are a bad person"
+        },
+        {
+          "en": "Normal, and talking to someone can help"
+        },
+        {
+          "en": "Something to keep secret"
+        }
+      ],
+      "answer": 1
+    }
+  ],
+  "faq": [
+    {
+      "question": {
+        "en": "Why do I feel sad or angry before my period?"
+      },
+      "answer": {
+        "en": "Changes in hormones before a period can affect mood. Many girls feel more tired, sad, or easily upset. Rest, movement, and talking to someone you trust can help. If sadness lasts for weeks or stops you from daily life, talk to your facilitator."
+      },
+      "keywords": [
+        "sad",
+        "angry",
+        "mood",
+        "upset",
+        "cry",
+        "feelings",
+        "before"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "body_basics",
+  "title": {
+    "en": "Knowing my body"
+  },
+  "topic": "body",
+  "level": 1,
+  "review_status": "draft",
+  "prerequisites": [],
+  "lessons": [
+    {
+      "id": "body_basics_1",
+      "format": "audio",
+      "script": {
+        "en": "Every part of your body has a name, including the private parts between your legs. The outside area is called the vulva. It includes the labia, the clitoris, the opening where urine comes out, and the vaginal opening. The vagina is the passage that leads inside to the uterus. Knowing these names helps you understand your body and explain how you feel to someone you trust."
+      },
+      "audio": "media/audio/body_basics_1.mp3"
+    },
+    {
+      "id": "body_basics_2",
+      "format": "story_card",
+      "script": {
+        "en": "Meera notices some white fluid in her underwear and worries something is wrong. Her aunt explains that this is called discharge, and that it is a normal way the vagina keeps itself clean. If it smells bad, itches, or changes colour, that is a sign to talk to a health worker."
+      },
+      "audio": "media/audio/body_basics_2.mp3",
+      "image": "media/images/body_basics_2.svg"
+    }
+  ],
+  "quiz": [
+    {
+      "question": {
+        "en": "What is the outside area between the legs called?"
+      },
+      "options": [
+        {
+          "en": "The vulva"
+        },
+        {
+          "en": "The stomach"
+        },
+        {
+          "en": "The uterus"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "question": {
+        "en": "Some clear or white discharge from the vagina is:"
+      },
+      "options": [
+        {
+          "en": "Always a sign of illness"
+        },
+        {
+          "en": "Normal and healthy"
+        },
+        {
+          "en": "Something to hide"
+        }
+      ],
+      "answer": 1
+    }
+  ],
+  "faq": [
+    {
+      "question": {
+        "en": "Is white discharge normal?"
+      },
+      "answer": {
+        "en": "Yes. Clear or white discharge is a normal way the vagina keeps itself clean and healthy. Talk to a health worker if it smells bad, itches, burns, or changes colour."
+      },
+      "keywords": [
+        "discharge",
+        "white",
+        "fluid",
+        "underwear",
+        "wet"
+      ]
+    },
+    {
+      "question": {
+        "en": "What is the vulva?"
+      },
+      "answer": {
+        "en": "The vulva is the outside part of the genitals between your legs. It includes the labia, the clitoris, the urinary opening, and the vaginal opening."
+      },
+      "keywords": [
+        "vulva",
+        "private",
+        "parts",
+        "genitals",
+        "labia",
+        "clitoris"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "id": "menstrual_hygiene",
+  "title": {
+    "en": "Caring for myself during my period"
+  },
+  "topic": "hygiene",
+  "level": 3,
+  "review_status": "draft",
+  "prerequisites": [
+    "menstruation_basics"
+  ],
+  "lessons": [
+    {
+      "id": "menstrual_hygiene_1",
+      "format": "audio",
+      "script": {
+        "en": "You can use pads, clean cloth, or a menstrual cup during your period. Change a pad or cloth every four to six hours, or sooner if it feels full. If you use cloth, wash it with soap and clean water and dry it fully in the sun, which helps kill germs. Wash your vulva with plain water each day. The vagina cleans itself, so never put soap or other products inside it."
+      },
+      "audio": "media/audio/menstrual_hygiene_1.mp3"
+    },
+    {
+      "id": "menstrual_hygiene_2",
+      "format": "case_scenario",
+      "script": {
+        "en": "Pooja dries her period cloth hidden under her bed so no one will see it. The cloth stays damp. What could happen? Where could Pooja dry her cloth instead, and who could help her?"
+      },
+      "audio": "media/audio/menstrual_hygiene_2.mp3",
+      "image": "media/images/menstrual_hygiene_2.svg"
+    }
+  ],
+  "quiz": [
+    {
+      "question": {
+        "en": "How often should you change a pad or cloth?"
+      },
+      "options": [
+        {
+          "en": "Once a day"
+        },
+        {
+          "en": "Every four to six hours"
+        },
+        {
+          "en": "Only when it leaks"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "question": {
+        "en": "The best place to dry a washed period cloth is:"
+      },
+      "options": [
+        {
+          "en": "In the sun"
+        },
+        {
+          "en": "Hidden under a bed"
+        },
+        {
+          "en": "Folded while still wet"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "question": {
+        "en": "Should you wash inside the vagina with soap?"
+      },
+      "options": [
+        {
+          "en": "Yes, every day"
+        },
+        {
+          "en": "No, the vagina cleans itself"
+        }
+      ],
+      "answer": 1
+    }
+  ],
+  "faq": [
+    {
+      "question": {
+        "en": "Can I bathe during my period?"
+      },
+      "answer": {
+        "en": "Yes. Bathing during your period is safe and helps you feel fresh. Wash the outside of your body with water. You do not need to wash inside the vagina."
+      },
+      "keywords": [
+        "bathe",
+        "bath",
+        "wash",
+        "shower",
+        "period",
+        "clean"
+      ]
+    },
+    {
+      "question": {
+        "en": "How do I wash and dry a period cloth?"
+      },
+      "answer": {
+        "en": "Wash the cloth with soap and clean water until the water runs clear. Dry it fully in direct sunlight. A damp or hidden cloth can grow germs that cause infection. Store dry cloths in a clean, dry place."
+      },
+      "keywords": [
+        "cloth",
+        "wash",
+        "dry",
+        "reuse",
+        "rag",
+        "sun"
+      ]
+    }
+  ]
+}

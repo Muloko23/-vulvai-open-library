@@ -1,0 +1,102 @@
+{
+  "id": "menstruation_basics",
+  "title": {
+    "en": "Understanding my period"
+  },
+  "topic": "menstruation",
+  "level": 2,
+  "review_status": "draft",
+  "prerequisites": [
+    "body_basics"
+  ],
+  "lessons": [
+    {
+      "id": "menstruation_basics_1",
+      "format": "video",
+      "script": {
+        "en": "A period is when the lining of the uterus leaves the body through the vagina as blood. It is a normal, healthy part of growing up. Most girls get their first period between ages 10 and 15. A period usually lasts between two and seven days and comes about once a month, but in the first years it is often irregular."
+      },
+      "audio": "media/audio/menstruation_basics_1.mp3",
+      "video": "media/video/menstruation_basics_1.mp4",
+      "image": "media/images/menstruation_basics_1.jpg"
+    },
+    {
+      "id": "menstruation_basics_2",
+      "format": "case_scenario",
+      "script": {
+        "en": "Kavita gets her period at school and is told she cannot enter the kitchen at home for five days. She feels ashamed. What could Kavita say to her mother? What would you tell her about whether a period makes her unclean?"
+      },
+      "audio": "media/audio/menstruation_basics_2.mp3",
+      "image": "media/images/menstruation_basics_2.svg"
+    }
+  ],
+  "quiz": [
+    {
+      "question": {
+        "en": "A period is:"
+      },
+      "options": [
+        {
+          "en": "A sign of illness"
+        },
+        {
+          "en": "A normal part of growing up"
+        },
+        {
+          "en": "Caused by something you ate"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "question": {
+        "en": "In the first years, periods are often:"
+      },
+      "options": [
+        {
+          "en": "Exactly the same every month"
+        },
+        {
+          "en": "Irregular"
+        },
+        {
+          "en": "Painless for everyone"
+        }
+      ],
+      "answer": 1
+    }
+  ],
+  "faq": [
+    {
+      "question": {
+        "en": "Is it normal for my period to be late?"
+      },
+      "answer": {
+        "en": "In the first years after your first period, it is common for periods to come early, late, or skip a month. If you have had sex and your period is late, or if periods stop for three months or more, talk to a health worker."
+      },
+      "keywords": [
+        "late",
+        "period",
+        "missed",
+        "irregular",
+        "skip"
+      ]
+    },
+    {
+      "question": {
+        "en": "Why does my stomach hurt during my period?"
+      },
+      "answer": {
+        "en": "Cramps happen because the uterus squeezes to release its lining. Mild cramps are common. A warm cloth on the belly, rest, and gentle movement can help. If the pain stops you from going to school or daily activities, talk to a health worker, because severe pain can have a treatable cause."
+      },
+      "keywords": [
+        "pain",
+        "cramps",
+        "stomach",
+        "hurt",
+        "ache",
+        "period"
+      ]
+    }
+  ]
+}

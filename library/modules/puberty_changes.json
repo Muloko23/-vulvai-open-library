@@ -1,0 +1,102 @@
+{
+  "id": "puberty_changes",
+  "title": {
+    "en": "How my body changes"
+  },
+  "topic": "puberty",
+  "level": 2,
+  "review_status": "draft",
+  "prerequisites": [
+    "body_basics"
+  ],
+  "lessons": [
+    {
+      "id": "puberty_changes_1",
+      "format": "video",
+      "script": {
+        "en": "Puberty is the time when a girl's body slowly becomes the body of a woman. It usually starts between ages 8 and 13. Your breasts begin to grow, hair grows under your arms and between your legs, your hips widen, and you grow taller. Clear or white discharge often starts a year or two before your first period. Every girl changes at her own pace, and that is normal."
+      },
+      "audio": "media/audio/puberty_changes_1.mp3",
+      "video": "media/video/puberty_changes_1.mp4",
+      "image": "media/images/puberty_changes_1.jpg"
+    },
+    {
+      "id": "puberty_changes_2",
+      "format": "story_card",
+      "script": {
+        "en": "Sunita's friend has started growing breasts, but Sunita has not. She worries something is wrong with her. Her facilitator explains that bodies follow their own timetable, and that starting earlier or later than a friend is normal. If nothing has changed by age 14, it is a good idea to see a health worker."
+      },
+      "audio": "media/audio/puberty_changes_2.mp3",
+      "image": "media/images/puberty_changes_2.svg"
+    }
+  ],
+  "quiz": [
+    {
+      "question": {
+        "en": "Puberty usually starts between ages:"
+      },
+      "options": [
+        {
+          "en": "3 and 5"
+        },
+        {
+          "en": "8 and 13"
+        },
+        {
+          "en": "18 and 20"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "question": {
+        "en": "If your friend's body changes before yours, it means:"
+      },
+      "options": [
+        {
+          "en": "Something is wrong with you"
+        },
+        {
+          "en": "Every body changes at its own pace"
+        },
+        {
+          "en": "You should hide it"
+        }
+      ],
+      "answer": 1
+    }
+  ],
+  "faq": [
+    {
+      "question": {
+        "en": "Why are my breasts sore?"
+      },
+      "answer": {
+        "en": "Growing breasts can feel tender or sore, and one side may grow faster than the other. This is common during puberty. Talk to a health worker if you notice a hard lump that does not go away, redness, or fluid from the nipple."
+      },
+      "keywords": [
+        "breast",
+        "breasts",
+        "sore",
+        "tender",
+        "chest",
+        "growing"
+      ]
+    },
+    {
+      "question": {
+        "en": "Is hair between my legs normal?"
+      },
+      "answer": {
+        "en": "Yes. Hair under the arms and between the legs is a normal part of puberty. It protects the skin and is nothing to be ashamed of."
+      },
+      "keywords": [
+        "hair",
+        "pubic",
+        "armpit",
+        "underarm",
+        "legs"
+      ]
+    }
+  ]
+}

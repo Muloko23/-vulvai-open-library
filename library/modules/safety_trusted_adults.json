@@ -1,0 +1,82 @@
+{
+  "id": "safety_trusted_adults",
+  "title": {
+    "en": "Staying safe and getting help"
+  },
+  "topic": "safety",
+  "level": 3,
+  "review_status": "draft",
+  "prerequisites": [
+    "consent_basics"
+  ],
+  "lessons": [
+    {
+      "id": "safety_trusted_adults_1",
+      "format": "audio",
+      "script": {
+        "en": "A safe touch, like a hug you want, feels comfortable. An unsafe touch makes you feel scared, confused, or uncomfortable, or is a touch on your private parts. A person who asks you to keep a touch secret is not keeping you safe. If anything like this happens, it is never your fault. Tell a trusted adult, and keep telling until someone helps."
+      },
+      "audio": "media/audio/safety_trusted_adults_1.mp3"
+    },
+    {
+      "id": "safety_trusted_adults_2",
+      "format": "group_activity",
+      "script": {
+        "en": "Each girl draws her hand and writes or draws five trusted people, one on each finger, whom she could tell if she felt unsafe."
+      },
+      "audio": "media/audio/safety_trusted_adults_2.mp3",
+      "image": "media/images/safety_trusted_adults_2.svg"
+    }
+  ],
+  "quiz": [
+    {
+      "question": {
+        "en": "If someone asks you to keep a touch secret, you should:"
+      },
+      "options": [
+        {
+          "en": "Keep the secret"
+        },
+        {
+          "en": "Tell a trusted adult"
+        },
+        {
+          "en": "Feel it was your fault"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "question": {
+        "en": "If something unsafe happens to you, it is:"
+      },
+      "options": [
+        {
+          "en": "Never your fault"
+        },
+        {
+          "en": "Your fault"
+        }
+      ],
+      "answer": 0
+    }
+  ],
+  "faq": [
+    {
+      "question": {
+        "en": "Who can I tell if I feel unsafe?"
+      },
+      "answer": {
+        "en": "You can tell a parent, a teacher, your facilitator, or another adult you trust. In India you can also call the Childline helpline at 1098, which is free and open day and night."
+      },
+      "keywords": [
+        "unsafe",
+        "tell",
+        "help",
+        "trusted",
+        "scared",
+        "helpline"
+      ]
+    }
+  ]
+}

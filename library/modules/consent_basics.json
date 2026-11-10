@@ -1,0 +1,67 @@
+{
+  "id": "consent_basics",
+  "title": {
+    "en": "My body, my choice"
+  },
+  "topic": "consent",
+  "level": 2,
+  "review_status": "draft",
+  "prerequisites": [
+    "body_basics"
+  ],
+  "lessons": [
+    {
+      "id": "consent_basics_1",
+      "format": "audio",
+      "script": {
+        "en": "Your body belongs to you. No one should touch your private parts without your permission, and no one should ever ask you to keep a touch secret. You can say no, even to someone you know. If someone makes you uncomfortable, tell a trusted adult or your facilitator."
+      },
+      "audio": "media/audio/consent_basics_1.mp3"
+    },
+    {
+      "id": "consent_basics_2",
+      "format": "group_activity",
+      "script": {
+        "en": "In pairs, practise saying no clearly and calmly. Then discuss: who are the trusted adults in your life you could talk to if something felt wrong?"
+      },
+      "audio": "media/audio/consent_basics_2.mp3",
+      "image": "media/images/consent_basics_2.svg"
+    }
+  ],
+  "quiz": [
+    {
+      "question": {
+        "en": "Can you say no to a touch from someone you know?"
+      },
+      "options": [
+        {
+          "en": "Yes, always"
+        },
+        {
+          "en": "Only if they are a stranger"
+        },
+        {
+          "en": "No"
+        }
+      ],
+      "answer": 0
+    }
+  ],
+  "faq": [
+    {
+      "question": {
+        "en": "Can I say no to someone in my family?"
+      },
+      "answer": {
+        "en": "Yes. Your body belongs to you, and you can say no to any touch that makes you uncomfortable, including from family members. Tell a trusted adult or your facilitator if this happens."
+      },
+      "keywords": [
+        "no",
+        "family",
+        "touch",
+        "uncomfortable",
+        "permission"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "care_seeking",
+  "title": {
+    "en": "When and where to get care"
+  },
+  "topic": "care_seeking",
+  "level": 3,
+  "review_status": "draft",
+  "prerequisites": [
+    "body_basics",
+    "menstruation_basics"
+  ],
+  "lessons": [
+    {
+      "id": "care_seeking_1",
+      "format": "audio",
+      "script": {
+        "en": "Some signs mean your body needs care. See a health worker if your period soaks through a pad every hour, if period pain stops you from going to school, if discharge smells bad, itches, or burns, if it hurts when you pass urine, if you have sores or lumps between your legs, or if you have not had a period by age 15. You can start with your local ASHA worker, who can help you reach the nearest health centre."
+      },
+      "audio": "media/audio/care_seeking_1.mp3"
+    },
+    {
+      "id": "care_seeking_2",
+      "format": "case_scenario",
+      "script": {
+        "en": "Anjali has had burning when she passes urine for three days. She is embarrassed to tell anyone. Practise what Anjali could say to the ASHA worker: when it started, what it feels like, and what she has tried."
+      },
+      "audio": "media/audio/care_seeking_2.mp3",
+      "image": "media/images/care_seeking_2.svg"
+    }
+  ],
+  "quiz": [
+    {
+      "question": {
+        "en": "Which of these is a sign to see a health worker?"
+      },
+      "options": [
+        {
+          "en": "Clear discharge"
+        },
+        {
+          "en": "Burning when passing urine"
+        },
+        {
+          "en": "Feeling tired before a period"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "question": {
+        "en": "Period pain that stops you from going to school is:"
+      },
+      "options": [
+        {
+          "en": "Something to ignore"
+        },
+        {
+          "en": "A reason to see a health worker"
+        }
+      ],
+      "answer": 1
+    }
+  ],
+  "faq": [
+    {
+      "question": {
+        "en": "It burns when I pee. What should I do?"
+      },
+      "answer": {
+        "en": "Burning when you pass urine can be a sign of a urinary infection, which is common and treatable. Drink plenty of clean water and talk to your ASHA worker or a health worker soon. Go quickly if you also have fever, back pain, or blood in your urine."
+      },
+      "keywords": [
+        "burn",
+        "burning",
+        "pee",
+        "urine",
+        "urinate",
+        "sting"
+      ]
+    },
+    {
+      "question": {
+        "en": "My period is very heavy. Is that normal?"
+      },
+      "answer": {
+        "en": "Some heaviness is normal, especially on the first days. If you soak through a pad or cloth every hour, bleed for more than seven days, or feel dizzy or very tired, talk to a health worker. Heavy periods are treatable."
+      },
+      "keywords": [
+        "heavy",
+        "period",
+        "lot",
+        "blood",
+        "soak",
+        "flow"
+      ]
+    },
+    {
+      "question": {
+        "en": "My discharge smells bad and itches. What does that mean?"
+      },
+      "answer": {
+        "en": "A bad smell, itching, or a change in colour can be a sign of an infection, which is common and treatable. Wear clean cotton underwear, wash the outside with plain water, and talk to a health worker."
+      },
+      "keywords": [
+        "smell",
+        "itch",
+        "itching",
+        "discharge",
+        "odor",
+        "colour",
+        "color"
+      ]
+    }
+  ]
+}
