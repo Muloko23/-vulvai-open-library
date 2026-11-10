@@ -1,0 +1,15 @@
+[project]
+name = "vulvai-open-library"
+version = "0.1.0"
+description = "Open source learning engine for community sexual and reproductive health education"
+readme = "README.md"
+license = {text = "MIT (code), CC BY 4.0 (content)"}
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

@@ -1,0 +1,64 @@
+{
+  "id": "outcomes_survey_v0_1",
+  "status": "draft",
+  "administration": "Read aloud by a trained facilitator or played as audio. Girls answer by tapping a picture scale. Given at enrollment (pre) and at the end of the program (post).",
+  "note": "These items are working drafts for cognitive testing with the youth advisory group. Before the study, each domain will be aligned with or supplemented by a validated instrument adapted for Rajasthan (see docs/outcomes.md), subject to its license terms.",
+  "scale": {
+    "type": "likert",
+    "points": 4,
+    "labels": {"en": ["Not at all true", "A little true", "Mostly true", "Very true"]}
+  },
+  "domains": [
+    {
+      "id": "comfort",
+      "label": {"en": "Comfort with my body and period"},
+      "items": [
+        {"id": "comfort_1", "text": {"en": "I feel comfortable talking about my period with a woman I trust."}},
+        {"id": "comfort_2", "text": {"en": "I feel I can manage my period without shame."}},
+        {"id": "comfort_3", "text": {"en": "I feel ashamed of my body."}, "reverse": true}
+      ]
+    },
+    {
+      "id": "confidence",
+      "label": {"en": "Confidence and self worth"},
+      "items": [
+        {"id": "confidence_1", "text": {"en": "I feel good about who I am."}},
+        {"id": "confidence_2", "text": {"en": "I can solve problems that come up in my life."}},
+        {"id": "confidence_3", "text": {"en": "I believe my opinions matter."}}
+      ]
+    },
+    {
+      "id": "safety",
+      "label": {"en": "Feeling safe"},
+      "items": [
+        {"id": "safety_1", "text": {"en": "I know at least one adult I could tell if I felt unsafe."}},
+        {"id": "safety_2", "text": {"en": "I know that I can say no to a touch I do not want."}},
+        {"id": "safety_3", "text": {"en": "I know a helpline I could call if I needed help."}}
+      ]
+    },
+    {
+      "id": "self_advocacy",
+      "label": {"en": "Self advocacy"},
+      "items": [
+        {"id": "advocacy_1", "text": {"en": "I could tell my mother or another adult if something felt wrong in my body."}},
+        {"id": "advocacy_2", "text": {"en": "I could explain my symptoms to a health worker."}},
+        {"id": "advocacy_3", "text": {"en": "I can say what I need, even when it is hard."}}
+      ]
+    },
+    {
+      "id": "health_action",
+      "label": {"en": "Ability to act on health information"},
+      "items": [
+        {"id": "action_1", "text": {"en": "I know which body signs mean I should see a health worker."}},
+        {"id": "action_2", "text": {"en": "I know where to go in my village to get health care."}},
+        {"id": "action_3", "text": {"en": "If I had a health problem, I would ask for help instead of waiting."}}
+      ]
+    }
+  ],
+  "knowledge_test": {
+    "id": "body_knowledge",
+    "label": {"en": "Body knowledge"},
+    "description": "Correct answers from the curriculum quizzes, scored as percent correct. The same items are asked before and after the program.",
+    "source_modules": ["body_basics", "puberty_changes", "menstruation_basics", "menstrual_hygiene", "consent_basics", "care_seeking"]
+  }
+}
